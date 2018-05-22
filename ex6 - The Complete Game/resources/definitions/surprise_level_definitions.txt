@@ -1,0 +1,80 @@
+
+
+# Level 1
+# Image Background and images for blocks
+#Block Size changes
+
+START_LEVEL
+level_name:Banana!!!
+ball_velocities:75,550
+background:image(background_images/level1.png)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/banana_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:2
+num_blocks:4
+START_BLOCKS
+---d-b----
+--c-------
+--a-------
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Image Background and images for blocks
+# just cute level
+
+START_LEVEL
+level_name:It's So Fluffyyyyyyy!!!
+ball_velocities:10,600
+background:image(background_images/level2.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/fluffy_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:80
+num_blocks:4
+START_BLOCKS
+b-----------a-
+-
+-
+-
+a-----------b-
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# Images and colors changes
+
+START_LEVEL
+level_name: HUUU!! KULALULA!!!
+ball_velocities:-45,550 -46,550 -13,650 -12,350 -22,750
+background:image(background_images/level3.png)
+paddle_speed:650
+paddle_width:250
+block_definitions:definitions/level3_block_definitions.txt
+blocks_start_x:160
+blocks_start_y:80
+row_height:25
+num_blocks:20
+START_BLOCKS
+-
+-
+-
+--------bb
+-
+-
+-
+-
+-
+--------cccc
+--------cccc
+--------cccc
+--------cccc
+--------aa
+
+END_BLOCKS
+END_LEVEL

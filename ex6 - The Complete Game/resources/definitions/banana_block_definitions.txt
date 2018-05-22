@@ -1,0 +1,11 @@
+# default values for blocks
+default stroke:color(yellow)
+
+# block definitions
+bdef symbol:a hit_points:1 stroke:color(green) fill:image(block_images/banana4.png) height:296 width:575
+bdef symbol:b hit_points:1 stroke:color(blue) fill:image(block_images/banana3.png) height:209 width:492
+bdef symbol:c hit_points:1 fill:image(block_images/banana2.png) height:152 width:279
+bdef symbol:d hit_points:1 fill:image(block_images/banana.jpg) height:25 width:50
+
+# spacers definitions
+sdef symbol:- width:50

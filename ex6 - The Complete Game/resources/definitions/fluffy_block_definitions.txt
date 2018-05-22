@@ -1,0 +1,10 @@
+# default values for blocks
+default stroke:color(black)
+
+# block definitions
+bdef symbol:a hit_points:1 fill:image(block_images/fluffy2.jpg) height:150 width:90
+bdef symbol:b hit_points:1 fill:image(block_images/fluffy1.png) height:150 width:98
+bdef symbol:c height:25 width:50 hit_points:3 fill-2:color(RGB(244,248,129)) fill-3:image(block_images/banana.jpg) fill-1:color(RGB(154,157,84))
+
+# spacers definitions
+sdef symbol:- width:50
